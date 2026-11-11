@@ -1,0 +1,43 @@
+{
+  "name": "Tehseen OS – Personal Productivity System",
+  "short_name": "Tehseen OS",
+  "description": "Private personal daily schedule and productivity management system.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "My Tasks",
+      "url": "/?tab=tasks",
+      "description": "View and manage today's tasks"
+    },
+    {
+      "name": "Focus Mode",
+      "url": "/?tab=focus",
+      "description": "Start a deep focus session"
+    },
+    {
+      "name": "Habits",
+      "url": "/?tab=habits",
+      "description": "Check off daily habits"
+    }
+  ]
+}
